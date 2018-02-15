@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="game.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Tic Tac Toe Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Welcome to an exhilarating game of Tic Tac Toe</h2>
+        <p>Click a square to claim as X</p>
+        <p>Double click to claim as O</p>
+        <a id='restart_button' type="button" class="btn btn-primary btn-lg" name="restart_button" href="#">Restart</a>
+      </div>
+
+      <table align='center'>
+        <tr id='board_row_1'>
+          <td id='cell1_1'> </td>
+          <td id='cell1_2'> </td>
+          <td id='cell1_3'> </td>
+        </tr>
+        <tr id='board_row_2'>
+          <td id='cell2_1'></td>
+          <td id='cell2_2'></td>
+          <td id='cell2_3'></td>
+        </tr>
+        <tr id='board_row_3'>
+          <td id='cell3_1'></td>
+          <td id='cell3_2'></td>
+          <td id='cell3_3'></td>
+        </tr>
+      </table>
+
+    </div>
+  <script src="game.js"></script>
+  </body>
+</html>
